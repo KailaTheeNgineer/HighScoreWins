@@ -25,9 +25,11 @@ public class HighScoreWins {
          int visitorScore = Integer.parseInt(teamScores[1]);
 
          if (homeScore > visitorScore) {
-             System.out.println("The winner is: " + homeTeam);}
+             System.out.println("The winner is: " + homeTeam);
+         }
+         
          else if (homeScore < visitorScore) {
-             System.out.println("The winner is:" + visitorTeam);
+             System.out.println("The winner is: " + visitorTeam);
          }
 
 
