@@ -27,7 +27,12 @@ public class HighScoreWins {
          if (homeScore > visitorScore) {
              System.out.println("The winner is: " + homeTeam);
          }
-         
+         if (homeScore == visitorScore) {
+
+             System.out.println("The game is a draw!");
+
+         }
+
          else if (homeScore < visitorScore) {
              System.out.println("The winner is: " + visitorTeam);
          }
